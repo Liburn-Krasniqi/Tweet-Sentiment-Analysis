@@ -7,7 +7,8 @@
 
 ## Overview
 
-This project implements a **sentiment analysis model** to classify tweets as positive or negative using a **Support Vector Machine (SVM)**. The dataset consists of 10,000 tweets (5,000 positive, 5,000 negative), and the model achieves an impressive **98.8% accuracy** on the test set. The key innovation is a custom preprocessing pipeline that leverages **emoticons** (e.g., `:)` → "smile", `:(` → "frown", `<3` → "heart") to capture strong sentiment signals, significantly boosting performance from an initial 74% to 94% and finally to 98.8%.
+This project implements a **sentiment analysis model** to classify tweets as positive or negative using a **Support Vector Machine (SVM)**. The dataset consists of 10,000 tweets (5,000 positive, 5,000 negative), and the model achieves an impressive **98.8% accuracy** on the test set. 
+The key innovation is a custom preprocessing pipeline that leverages **emoticons** (e.g., `:)` → "smile", `:(` → "frown", `<3` → "heart") to capture strong sentiment signals, significantly boosting performance from an initial 74% to 94% and finally to 98.8%.
 
 This project was developed as part of a school assignment, with a focus on building a custom model without pre-trained embeddings or deep learning frameworks.
 
